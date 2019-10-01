@@ -1,3 +1,7 @@
+# Purpose
+A Bolt task to go out and retrieve user account data from a list of servers and then some Python code to search the returned data.
+This has to scale to 2000+ servers with 500+ targeted accounts. 
+
 # To run the job
 If you have a Bolt server you can pull this down by adding the project to the **Puppetfile**.  
 With a list of servers;

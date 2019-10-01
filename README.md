@@ -1,11 +1,12 @@
 # To run the job
+If you have a Bolt server you can pull this down by adding the project to the **Puppetfile**.
 With a list of servers;
 ```
-bolt task run accountcheck::accountcheck --nodes server1.example.com,server2.example.com --format=json > testdata.json
+bolt task run pbaccaudit::getdata --nodes server1.example.com,server2.example.com --format=json > testdata.json
 ```
 Or you can run with a text file listing servers, here I've used a file called cyberark.list;
 ```
-bolt task run accountcheck::accountcheck --nodes @server.list --format=json > testdata.json
+bolt task run pbaccaudit::getdata --nodes @server.list --format=json > testdata.json
 ```
 
 # Contents of the json file

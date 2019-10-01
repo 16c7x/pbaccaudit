@@ -1,0 +1,12 @@
+{ "items": [
+{"node":"server1.example.com","status":"success","result":{"_output":",unix,linux,opsunix,opslinux,splunk"}}
+,
+{"node":"server2.example.com","status":"success","result":{"_output":",unix,linux,opsunix,opslinux,splunk"}}
+,
+{"node":"server3.example.com","status":"failure","result":{"_output":",unix,linux,opsunix,opslinux,splunk"}}
+,
+{"node":"server4.example.com","status":"success","result":{"_output":",unix,linux,opsunix,opslinux,splunk"}}
+,
+{"node":"server5.example.com","status":"success","result":{"_output":",unix,linux,opsunix,opslinux,splunk,bob"}}
+],
+"node_count": 5, "elapsed_time": 13 }

@@ -70,7 +70,7 @@ bolt task run accountcheck::accountcheck --nodes @server.list --format=json > te
 }
 ```
 
-# To extract data from the JSON file use **accparse.py** this requires 3 inputs;
+# To extract data from the JSON file
 To extract data from the JSON file use **accparse.py** this requires 3 inputs;
 1. The output file name.
 2. The operation, either search by account or by host.
